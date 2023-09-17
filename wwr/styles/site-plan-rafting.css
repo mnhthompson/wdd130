@@ -11,10 +11,10 @@
     --heading-font: '22', Roboto;
     --paragraph-font: '18', DotGothic16;
 
-    --nav-background-color: #o71e22;
+    --nav-background-color: #071e22;
     --nav-link-color: #f4c095;
     --nav-hover-link-color: #f4c095;
-    --nav-hover-background-color: #1d7874;
+    --nav-hover-background-color: #2f781d;
 
 }
 
@@ -28,7 +28,7 @@ padding: 20px;
 
 h1,h2,h3,h4,h5,h6 {
 
-    font-family: var(--heading-font);
+font-family: var(--heading-font);
 color: var(--primary-color);
 }
 
