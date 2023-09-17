@@ -1,5 +1,5 @@
 
-@import url ("https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=DotGothic16&display=swap');
 
 
 :root{
@@ -8,8 +8,8 @@
     --accent1-color: #679289;
     --accent2-color: #f4c095;
 
-    --heading-font: '22', serif;
-    --paragraph-font: '18', serif;
+    --heading-font: '22', Roboto;
+    --paragraph-font: '18', DotGothic16;
 
     --nav-background-color: #o71e22;
     --nav-link-color: #f4c095;
@@ -47,7 +47,7 @@ p{
 
 nav {
 
-    background-color: var(--nav-background-color);
+background-color: var(--nav-background-color);
 font-size: 1.2rem;
 display: flex;
 
