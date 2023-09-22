@@ -16,6 +16,7 @@ width: 20em;
 background-color: #eee ;
 color: #333;
 text-align: center;
+position: relative;
 
 }
 
@@ -74,7 +75,7 @@ border-top: 1px #000;
 text-align: center;
 
 }
-/* class selectors */
+/*class selectors*/
 
 .box {
 
