@@ -1,15 +1,32 @@
+
+* {
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+
 main{ max-width: 840px;}
 
 aside{
 
-margin: 1em ;
-border: 1px solid rgba(0, 0, 0, 0.2);
-padding: 1em;
+width: 20em;
 background-color: #eee ;
 color: #333;
 text-align: center;
 
 }
+
+aside h2 {
+
+position: absolute;
+top: 47px;
+left:150px;
+
+}
+
 
 nav {
     background-color: steelblue;
@@ -46,7 +63,7 @@ padding: 10px;
 
 aside img{ width: 200px; height: auto;}
 
-main img {width: 150px; height: auto;}
+main img {width: 150px; height: auto; float: right;}
 
 p{padding: 0;}
 
@@ -56,4 +73,14 @@ margin-top: 1em;
 border-top: 1px #000;
 text-align: center;
 
+}
+/* class selectors */
+
+.box {
+
+margin: 1rem;
+border: 1px solid rgba(0, 0, 0, .1);
+padding: 1rem;
+background-color: #a9dbfc;
+color: #360404;
 }
