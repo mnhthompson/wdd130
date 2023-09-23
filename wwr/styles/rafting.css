@@ -25,12 +25,30 @@ body{
     
     }
     
-    h1,h2 {
+    h1 {
+    
+        font-family: var(--heading-font);
+        color: var(--accent1-color);
+        padding: 20px;
+    background-color: rgba(0, 50, 50, .25);
+text-align: center;
+
+        }
+    
+        
+    h2 {
     
     font-family: var(--heading-font);
     color: var(--primary-color);
     }
     
+    h3 {
+    
+        font-family: var(--heading-font);
+        color: var(--nav-background-color);
+        }
+
+
     header{
     
     padding: 20px;
@@ -39,9 +57,7 @@ body{
     }
     
     p{
-    
         padding: 25px;
-    
     }
     
     nav {
@@ -73,7 +89,7 @@ body{
     
     }
 
-    .hero.jpg img {
+.hero img {
 display: block;
 width: 100%;
 height: auto;
@@ -81,7 +97,6 @@ height: auto;
     }
     
     
-
 .sociallinks img {
     height: auto; 
   width: auto; 
@@ -89,4 +104,10 @@ height: auto;
   max-height: 50px;
             }
 
-    
+ .logo img {
+ height: auto; 
+ width: auto; 
+max-width: 150px; 
+ max-height: 150px;
+  }
+            
