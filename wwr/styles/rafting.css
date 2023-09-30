@@ -78,7 +78,7 @@ text-align: center;
 
         
     h2 {
-    
+    text-align: center;
     font-family: var(--heading-font);
     color: var(--primary-color);
     }
@@ -90,23 +90,46 @@ text-align: center;
         }
 
 
+        .logo img {
+            height: auto; 
+            width: auto; 
+           max-width: 150px; 
+            max-height: 150px;
+            
+             }
+
+
+ .grid {
+
+    display: grid;
+    align-items: center;
+    column-gap: 50px;
+   
+    
+ }
+
     header{
+        
+        display: grid;
+        grid-template-columns: 400px 1fr 2fr;
     
-    padding: 20px;
+
+        padding: 20px;
     background-color: var(--accent1-color);
-    
+    align-items: center;
+
+
     }
     
-    p{
-        padding: 25px;
-    }
     
     nav {
     
     background-color: var(--nav-background-color);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     display: flex;
-    
+    text-align: right;
+    justify-content: right;
+   
     }
     
     nav a {
@@ -123,6 +146,11 @@ text-align: center;
     
     }
     
+    p{
+        padding: 25px;
+    }
+
+
     nav a:hover{
     
     color: var(--nav-link-color);
@@ -131,20 +159,78 @@ text-align: center;
     }
 
 
-    
+    footer{
+        
+        color: rgb(40, 95, 50);
+         
+
+    }
+
+
+
+
     
 .sociallinks img {
     height: auto; 
   width: auto; 
   max-width: 50px; 
   max-height: 50px;
+  float: right;
+
             }
 
- .logo img {
- height: auto; 
- width: auto; 
-max-width: 150px; 
- max-height: 150px;
-  }
-            
+ 
+
+section{
+
+    
+    align-items: center;
+    text-align: center;
+}
+
+
+  /*History thing*/
   
+ .History {
+      display: grid;
+       align-items: center;
+       column-gap: 50px;
+       
+       grid-template-columns: repeat(3, 1fr);
+       grid-template-rows: repeat(1fr);
+       gap: 10px;
+                
+            }
+
+             .History img{
+                position: relative;
+                padding-left: 20px;
+                padding-right: 20px;
+                display: block;
+                width: 75%;
+                height: auto;
+                }
+
+
+/*Adventure thing*/
+
+
+             .adventure {
+
+                display: grid;
+                align-items: center;
+                column-gap: 50px;
+                
+                grid-template-columns: repeat(5, 1fr);
+                grid-template-rows: repeat(1fr);
+                gap: 10px;
+             }
+
+             .adventure img{
+                position: relative;
+                padding-left: 20px;
+                padding-right: 20px;
+                display: block;
+                width: 95%;
+                height: auto;
+    }
