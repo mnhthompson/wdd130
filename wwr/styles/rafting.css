@@ -197,7 +197,7 @@ section{
        column-gap: 50px;
        
        grid-template-columns: repeat(3, 1fr);
-       grid-template-rows: (1fr);
+     
        gap: 10px;
                 
             }
@@ -222,7 +222,7 @@ section{
                 column-gap: 50px;
                 
                 grid-template-columns: repeat(5, 1fr);
-                grid-template-rows: (1fr);
+              
                 gap: 10px;
              }
 
