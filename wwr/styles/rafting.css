@@ -236,3 +236,10 @@ section{
                 width: 95%;
                 height: auto;
     }
+
+    .cube {
+        height: auto;
+        width: 400px;
+        background-color: rgba(8, 116, 116, 0.712);
+        padding: 15px;
+      }
