@@ -1,0 +1,29 @@
+
+
+
+
+h1{   text-align: center;}
+
+
+
+
+
+
+
+.box,h1 {
+
+    width: 550px;
+    height: auto;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: #a9dbfc;
+    color: #360404;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    display: grid;
+    grid-template-columns: 400px;
+
+    }
