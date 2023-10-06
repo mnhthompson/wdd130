@@ -27,6 +27,25 @@ body{
     
 /*box thing*/
 
+
+h1 { 
+    position: absolute;
+    bottom: 550px;
+    right: 350px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+    padding: 20px;
+    background-color: rgba(0, 50, 50, .25);
+    text-align: center;
+    display: inline-block !important;
+    justify-content: center;
+    z-index:7
+}
+
+
+
 .hero img {
     
     display: block;
@@ -36,18 +55,6 @@ body{
     z-index:-1
         }
 
-    h1 { position: relative;
-    bottom: 550px;
-    right: -40px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-family: var(--heading-font);
-    color: var(--accent1-color);
-    padding: 20px;
-    background-color: rgba(0, 50, 50, .25);
-text-align: center;
-
-}
 
 
 
@@ -240,6 +247,6 @@ section{
     .cube {
         height: auto;
         width: 400px;
-        background-color: rgba(8, 116, 116, 0.712);
+        background-color: rgba(8, 116, 116, 0.404);
         padding: 15px;
       }
