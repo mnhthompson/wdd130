@@ -29,19 +29,21 @@ body{
 
 
 h1 { 
-    position: absolute;
-    bottom: 550px;
-    right: 350px;
+    
+   
+    
+    top: 220px;
     padding-left: 20px;
     padding-right: 20px;
     font-family: var(--heading-font);
     color: var(--accent1-color);
     padding: 20px;
     background-color: rgba(0, 50, 50, .25);
-    text-align: center;
-    display: inline-block !important;
+    text-align: center !important;
+   align-items: center;
     justify-content: center;
     z-index:7
+    
 }
 
 
@@ -53,6 +55,7 @@ h1 {
     height: auto;
     position: relative;
     z-index:-1
+    
         }
 
 
