@@ -219,7 +219,7 @@ section{
                 padding-left: 20px;
                 padding-right: 20px;
                 display: block;
-                width: 75%;
+                width: 80%;
                 height: auto;
                 }
 
@@ -253,3 +253,32 @@ section{
         background-color: rgba(8, 116, 116, 0.404);
         padding: 15px;
       }
+
+      table{
+
+        padding-left: 20px;
+        padding-right: 20px;
+        align-items: center;
+        text-align: center;
+        background-color: var(--accent1-color);
+        border: 2px solid rgba(0, 0, 0, .1);
+    }
+    td, th {
+
+        border: 2px solid rgba(0, 0, 0, .1);
+        background-color: white;
+    }
+
+
+    
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
