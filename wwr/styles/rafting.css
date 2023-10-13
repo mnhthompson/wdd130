@@ -206,7 +206,7 @@ section{
  .History {
       display: grid;
        align-items: center;
-       column-gap: 50px;
+       column-gap: 25px;
        
        grid-template-columns: repeat(3, 1fr);
      
@@ -247,12 +247,14 @@ section{
                 height: auto;
     }
 
+
     .cube {
         height: auto;
         width: 400px;
         background-color: rgba(8, 116, 116, 0.404);
         padding: 15px;
       }
+
 
       table{
 
